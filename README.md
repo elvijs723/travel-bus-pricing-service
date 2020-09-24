@@ -17,13 +17,13 @@ mvn test
 
 One POST end-point for receiving pricings for given route:
 ```
-http://localhost:8081/pricing/bus/draft/route
+http://localhost:8081/pricing/bus/draft/Ventspils-Riga
 ```
 For formatted response:
 ```
-http://localhost:8081/pricing/bus/draft/route?format=true
+http://localhost:8081/pricing/bus/draft/Ventspils-Riga?format=true
 ```
-POST request BODY:
+POST request BODY example:
 ```
 [
     {
